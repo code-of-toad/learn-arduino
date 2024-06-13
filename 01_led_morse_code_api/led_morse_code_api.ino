@@ -28,9 +28,9 @@ void blinkQuickly(uint8_t pin, uint8_t count) {
 void blinkSlowly(uint8_t pin, uint8_t count) {
   for (int i = 0; i < count; i++) {
     digitalWrite(pin, HIGH);
-    delay(350);
+    delay(250);
     digitalWrite(pin, LOW);
-    delay(350);
+    delay(175);
   }
 }
 
